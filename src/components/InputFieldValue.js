@@ -4,6 +4,7 @@ export default function InputFieldValue() {
   const [inputValue, setInputValue] = useState("");
   return (
     <div>
+      <h1>Getting the value from input fields</h1>
       <input
         type="text"
         value={inputValue}
