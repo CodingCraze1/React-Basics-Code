@@ -6,8 +6,6 @@ export default function HandleCheckbox() {
 
   //defining function to change the values of checkbox and store them into the useState
   function handleSkills(event) {
-    console.log(event.target.value);
-    console.log(event.target.checked);
     if (event.target.checked) {
       setSkills([...skills, event.target.value]);
     } else {
