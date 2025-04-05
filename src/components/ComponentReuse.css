@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.reusable-component {
+  border: 1px solid dodgerblue;
+  background-color: #0f1d22;
+  width: 360px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.name {
+  color: salmon;
+}
+.age {
+  color: dodgerblue;
+}
+.email {
+  color: gold;
+}
+.name,
+.email,
+.age {
+  margin: 0px;
+  margin-bottom: 5px;
+}
