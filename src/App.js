@@ -10,11 +10,12 @@ import HandleRadioButton from "./components/HandleRadioButton";
 import HandleDropdown from "./components/HandleDropdown";
 import MapFunction from "./components/MapFunction";
 import ReuseComponent from "./components/ReuseComponent";
+import NestedLooping from "./components/NestedLooping";
 
 export default function MyApp() {
   return (
     <div>
-      <ReuseComponent />
+      <NestedLooping />
     </div>
   );
 }
