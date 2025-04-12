@@ -11,11 +11,12 @@ import HandleDropdown from "./components/HandleDropdown";
 import MapFunction from "./components/MapFunction";
 import ReuseComponent from "./components/ReuseComponent";
 import NestedLooping from "./components/NestedLooping";
+import UseEffectHook from "./components/UseEffectHook";
 
 export default function MyApp() {
   return (
     <div>
-      <NestedLooping />
+      <UseEffectHook />
     </div>
   );
 }
